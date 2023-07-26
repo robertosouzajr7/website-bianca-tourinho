@@ -20,7 +20,16 @@ export const MainStyled = styled.main`
 `;
 
 export const HeaderStyled = styled.header`
-  background-color: black;
+  position: absolute;
+  top: 0;
+  z-index: 4;
+  background-color: transparent;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.8155637254901961) 86%
+  );
   width: 100%;
   height: 114px;
   display: flex;

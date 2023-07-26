@@ -8,20 +8,27 @@ const Container = styled.div<{ isVisible?: boolean }>`
   right: 0;
   bottom: 0;
   z-index: 5;
-  background: white;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.8155637254901961) 86%
+  );
   opacity: 0;
   pointer-events: none;
   transform: translateY(50px);
   transition: 0.5s linear;
   margin: 0 auto;
   box-sizing: border-box;
+  color: white;
+  align-items: center;
+  justify-content: center;
 
   svg {
     position: absolute;
-    top: 0;
-    left: 50%;
     right: 50%;
-    bottom: 0;
+    left: 50%;
+    top: 40px;
     transform: rotate(45deg);
     transition: 0.7s;
   }
@@ -31,21 +38,26 @@ const Container = styled.div<{ isVisible?: boolean }>`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
-    width: 100%;
+    box-sizing: border-box;
+    gap: 15px;
     ul {
-      width: 100%;
+      position: relative;
+      bottom: -100px;
+      width: 80%;
+      height: 100%;
       display: flex;
       flex-direction: column;
       list-style: none;
       justify-content: center;
       justify-items: center;
+      align-items: center;
       text-transform: uppercase;
-      margin-top: 50px;
+      margin-top: 100px;
+      margin: 0 auto;
       gap: 2px;
 
       li {
-        width: 100%;
+        display: flex;
         cursor: pointer;
         p {
           font-family: "Montserrat";
