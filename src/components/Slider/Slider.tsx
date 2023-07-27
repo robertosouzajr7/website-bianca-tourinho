@@ -1,5 +1,5 @@
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide, SwiperRef } from "swiper/react";
 import "swiper/css/bundle";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -8,9 +8,11 @@ import { Container } from "./Style";
 import fotos from "../../assets/fotos";
 
 const Slide: React.FC = () => {
+  const swiperRef = React.useRef<SwiperRef>(null);
   return (
     <Container>
       <Swiper
+        SwiperRef={swiperRef}
         spaceBetween={50}
         centeredSlides={true}
         effect="fade"
