@@ -29,11 +29,13 @@ function Menu({ setVisibleMenu }: iHome) {
           </li>
         </ul>
       </nav>
-      <RxHamburgerMenu
-        onClick={() => setVisibleMenu(true)}
-        className="mobile"
-        size={45}
-      />
+      <div className="icone-hamburguer">
+        <RxHamburgerMenu
+          onClick={() => setVisibleMenu(true)}
+          className="mobile"
+          size={45}
+        />
+      </div>
     </Container>
   );
 }

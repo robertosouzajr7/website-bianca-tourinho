@@ -45,6 +45,21 @@ const Container = styled.div`
     }
   }
 
+  .icone-hamburguer {
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+
+    svg {
+      position: relative;
+      right: 0px;
+      left: 15%;
+      size: 45;
+      width: 100%;
+    }
+  }
+
   .mobile {
     display: none;
   }
