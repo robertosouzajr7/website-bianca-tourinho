@@ -5,6 +5,7 @@ import Logo from "../../assets/logo-white-biatourinho.png";
 import { HeaderStyled, LogoStyled, MainStyled } from "./Style";
 import Slide from "../../components/Slider/Slider";
 import About from "../../components/About/About";
+import Projects from "../../components/Projects/Projects";
 
 export interface iHome {
   setVisibleMenu: React.Dispatch<React.SetStateAction<boolean>>;
@@ -26,6 +27,7 @@ export const Home = () => {
         <MenuMobile visibleMenu={visibleMenu} setVisibleMenu={setVisibleMenu} />
         <Slide />
         <About />
+        <Projects />
       </MainStyled>
     </>
   );
