@@ -36,8 +36,8 @@ export const Container = styled.div`
       .capa-galeria {
         align-items: center;
         justify-content: center;
-        max-width: 300px;
-        max-height: 300px;
+        max-width: 200px;
+        max-height: 200px;
         width: 100%;
         object-fit: cover;
 

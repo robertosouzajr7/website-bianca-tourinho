@@ -6,9 +6,23 @@ import { FreeMode, Navigation, Pagination, Thumbs } from "swiper/modules";
 import "swiper/css/bundle";
 import "swiper/css/thumbs";
 import { GrView } from "react-icons/gr";
+import { Button, ModalStyled, StyledImage } from "../ModalPhoto/Style";
+import Modal from "../ModalPhoto/Modal";
 
 function Projects() {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
+  const [selectImage, setSelectImage] = useState("");
+  const [modalOpen, setModalOpen] = useState(false);
+
+  const HandleClick = (imageUrl: string) => {
+    setSelectImage(imageUrl);
+    setModalOpen(true);
+  };
+
+  const HandleCloseModal = () => {
+    setModalOpen(false);
+  };
+
   const swiperRef = React.useRef<SwiperRef>(null);
   return (
     <Container>
@@ -30,7 +44,7 @@ function Projects() {
               <Cards>
                 {foto.fotos.map((imagem) => (
                   <SwiperSlide>
-                    <Cards>
+                    <Cards onClick={() => HandleClick(imagem)}>
                       <img src={imagem} alt={imagem} />
                     </Cards>
                   </SwiperSlide>
@@ -40,6 +54,9 @@ function Projects() {
           ))}
         </div>
       </div>
+      {modalOpen && (
+        <Modal HandleCloseModal={HandleCloseModal} selectImage={selectImage} />
+      )}
     </Container>
   );
 }

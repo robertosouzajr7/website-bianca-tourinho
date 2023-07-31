@@ -14,7 +14,7 @@ export const Container = styled.div`
     display: flex;
 
     h2 {
-      font-size: 40px;
+      font-size: 30px;
       font-family: "Montserrat";
       font-weight: bold;
       color: #949494;
@@ -62,7 +62,7 @@ export const Container = styled.div`
 
       > h2 {
         display: flex;
-        font-size: 60px;
+        font-size: 30px;
         display: flex;
         flex-wrap: wrap;
         color: #949494;
@@ -70,7 +70,7 @@ export const Container = styled.div`
 
       > p {
         padding-right: 30px;
-        font-size: 27px;
+        font-size: 16px;
         font-family: "Source Sans Pro";
         color: #949494;
         text-align: justify;
@@ -82,8 +82,8 @@ export const Container = styled.div`
 
           button {
             padding: 10px;
-            font-size: 20px;
-            height: 50px;
+            font-size: 12px;
+            height: 30px;
             background-color: #484848;
             color: white;
             border-radius: 6px;
