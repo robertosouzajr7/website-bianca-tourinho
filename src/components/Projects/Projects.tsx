@@ -14,6 +14,7 @@ function Projects() {
   const [selectImage, setSelectImage] = useState("");
   const [modalOpen, setModalOpen] = useState(false);
 
+  console.log(galeria);
   const HandleClick = (imageUrl: string) => {
     setSelectImage(imageUrl);
     setModalOpen(true);
@@ -21,6 +22,11 @@ function Projects() {
 
   const HandleCloseModal = () => {
     setModalOpen(false);
+  };
+
+  const getId = (id: string) => {
+    console.log(id);
+    localStorage.setItem("id", id);
   };
 
   const swiperRef = React.useRef<SwiperRef>(null);
@@ -40,6 +46,7 @@ function Projects() {
               pagination={{ clickable: true }}
               modules={[Pagination, Navigation]}
               className="capa-galeria"
+              onClick={() => getId(foto.id)}
             >
               <Cards>
                 {foto.fotos.map((imagem) => (

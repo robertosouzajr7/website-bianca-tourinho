@@ -45,13 +45,19 @@ export const Container = styled.div`
           background: rgba(108, 108, 108, 0.3337710084033614) 99%;
         }
       }
+
+      @media (max-width: 950px) {
+        display: flex;
+        flex-wrap: nowrap;
+      }
     }
 
     @media (max-width: 950px) {
       display: flex;
       flex-direction: column;
       flex-wrap: none;
-      width: 100%;
+      overflow: auto;
+      margin-bottom: 200px;
     }
   }
 `;
@@ -72,5 +78,11 @@ export const Cards = styled.div`
       rgba(0, 0, 0, 0.6287009803921569) 0%,
       rgba(108, 108, 108, 0.3337710084033614) 99%
     );
+  }
+
+  @media (max-width: 950px) {
+    object-fit: contain;
+    width: 400px;
+    height: 200px;
   }
 `;
