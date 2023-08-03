@@ -2,15 +2,31 @@ import { styled } from "styled-components";
 
 export const ModalStyled = styled.div`
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  display: flex;
+  top: 40px;
+  left: 25%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
   background-color: rgba(0, 0, 0, 0.7);
+
+  z-index: 5;
+
+  .modal-container {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+`;
+
+export const MainComponent = styled.div`
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 5;
+  width: 100%;
+  height: 100%;
 `;
 
 export const Button = styled.button`
@@ -24,5 +40,6 @@ export const Button = styled.button`
 `;
 
 export const StyledImage = styled.img`
-  width: 40%;
+  object-fit: cover;
+  width: 100%;
 `;
