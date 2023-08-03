@@ -25,7 +25,7 @@ const Modal: React.FC<GalleryProps> = ({ HandleCloseModal, selectImage }) => {
       {filterGalery.map((fotos) => (
         <ModalStyled>
           <Swiper
-            SwiperRef={swiperRef}
+            ref={swiperRef}
             centeredSlides={true}
             pagination={{ clickable: true }}
             navigation={true}

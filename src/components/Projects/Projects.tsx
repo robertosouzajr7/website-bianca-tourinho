@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { Cards, Container } from "../Projects/Style";
 import { galeria } from "../../assets/fotos";
-import { Swiper, SwiperSlide, SwiperRef } from "swiper/react";
+import { Swiper, SwiperSlide, SwiperRef, SwiperProps } from "swiper/react";
+import { SwiperOptions } from "swiper/types/swiper-options";
 import { FreeMode, Navigation, Pagination, Thumbs } from "swiper/modules";
 import "swiper/css/bundle";
 import "swiper/css/thumbs";
@@ -29,7 +30,7 @@ function Projects() {
     localStorage.setItem("id", id);
   };
 
-  const swiperRef = React.useRef<SwiperRef>(null);
+  const swiperRef = React.useRef<SwiperOptions & SwiperRef>(null);
   return (
     <Container>
       <div className="div-title">
@@ -39,7 +40,7 @@ function Projects() {
         <div className="div-carrosel">
           {galeria.map((foto) => (
             <Swiper
-              SwiperRef={swiperRef}
+              ref={swiperRef}
               centeredSlides={true}
               spaceBetween={1}
               slidesPerView={"auto"}

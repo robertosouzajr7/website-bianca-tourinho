@@ -12,7 +12,7 @@ const Slide: React.FC = () => {
   return (
     <Container>
       <Swiper
-        SwiperRef={swiperRef}
+        ref={swiperRef}
         spaceBetween={50}
         centeredSlides={true}
         effect="fade"
