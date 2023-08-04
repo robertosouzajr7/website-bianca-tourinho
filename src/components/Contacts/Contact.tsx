@@ -43,11 +43,11 @@ function Contact() {
                 Localização.
               </span>
               <div>
-                <p>Bairro: {item.adress.bairro}</p>
-                <p>Rua: {item.adress.rua}</p>
-                <p>Nº: {item.adress.number}</p>
-                <p>Cidade: {item.adress.city}</p>
-                <p>Cep: {item.adress.cep}</p>
+                <p>{item.adress.bairro}</p>
+                <p>{item.adress.rua}</p>
+                <p> {item.adress.number}</p>
+                <p>{item.adress.city}</p>
+                <p>{item.adress.cep}</p>
               </div>
             </div>
           </div>
