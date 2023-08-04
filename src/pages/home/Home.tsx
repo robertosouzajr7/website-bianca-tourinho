@@ -7,6 +7,7 @@ import Slide from "../../components/Slider/Slider";
 import About from "../../components/About/About";
 import Projects from "../../components/Projects/Projects";
 import Team from "../../components/Team/Team";
+import Contact from "../../components/Contacts/Contact";
 
 export interface iHome {
   setVisibleMenu: React.Dispatch<React.SetStateAction<boolean>>;
@@ -22,7 +23,6 @@ export const Home = () => {
           <LogoStyled>
             <img src={Logo} alt="" />
           </LogoStyled>
-
           <Menu setVisibleMenu={setVisibleMenu} />
         </HeaderStyled>
         <MenuMobile visibleMenu={visibleMenu} setVisibleMenu={setVisibleMenu} />
@@ -30,6 +30,7 @@ export const Home = () => {
         <About />
         <Projects />
         <Team />
+        <Contact />
       </MainStyled>
     </>
   );
