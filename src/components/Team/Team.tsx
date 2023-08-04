@@ -4,28 +4,34 @@ import { DivStyled } from "./Style";
 function Team() {
   const data = [
     {
-      photo: "http://www.foto.com",
+      photo:
+        "https://cdn.icon-icons.com/icons2/2643/PNG/512/male_boy_person_people_avatar_icon_159358.png",
       name: "Diliane",
       postion: "Assistente",
-      description: "lorem ipsum d",
+      description:
+        "A expressão Lorem ipsum em design gráfico e editoração é um texto padrão em latim utilizado na produção gráfica para preencher os espaços de texto em publicações para testar e ajustar aspectos visuais antes de utilizar conteúdo real",
     },
     {
-      photo: "http://www.foto.com",
+      photo:
+        "https://cdn.icon-icons.com/icons2/2643/PNG/512/male_boy_person_people_avatar_icon_159358.png",
       name: "Diliane",
       postion: "Assistente",
-      description: "lorem ipsum d",
+      description:
+        "lorem ipsum dA expressão Lorem ipsum em design gráfico e editoração é um texto padrão em latim utilizado na produção gráfica para preencher os espaços de texto em publicações para testar e ajustar aspectos visuais antes de utilizar conteúdo real",
     },
     {
-      photo: "http://www.foto.com",
+      photo:
+        "https://cdn.icon-icons.com/icons2/2643/PNG/512/male_boy_person_people_avatar_icon_159358.png",
       name: "Diliane",
       postion: "Assistente",
-      description: "lorem ipsum d",
+      description:
+        "A expressão Lorem ipsum em design gráfico e editoração é um texto padrão em latim utilizado na produção gráfica para preencher os espaços de texto em publicações para testar e ajustar aspectos visuais antes de utilizar conteúdo real",
     },
   ];
   return (
     <ContainerStyled backgroundColor="#d3d3d3">
       <DivStyled>
-        <div>
+        <div className="div-title">
           <h2>Nossa Equipe</h2>
         </div>
         <section>

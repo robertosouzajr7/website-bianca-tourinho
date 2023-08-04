@@ -7,10 +7,11 @@ export const DivStyled = styled.div`
   justify-content: center;
   width: 100%;
 
-  div {
+  .div-title {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     width: 100%;
     h2 {
       font-size: 60px;
@@ -25,17 +26,20 @@ export const DivStyled = styled.div`
     width: 100%;
     align-items: center;
     justify-content: center;
+
     ul {
       display: flex;
       align-items: center;
       justify-content: center;
-
+      padding: 10px 0px 10px 0px;
+      width: 100%;
+      gap: 10px;
       li {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 250px;
+        max-width: 300px;
 
         > img {
           width: 100px;
@@ -59,8 +63,26 @@ export const DivStyled = styled.div`
         > p {
           text-align: justify;
           font-size: 12px;
+          padding: 0px 30px 0px 30px;
+        }
+
+        @media (max-width: 790px) {
+          display: flex;
+          flex-direction: column;
+          min-width: 350px;
         }
       }
+
+      @media (max-width: 790px) {
+        display: flex;
+        width: 400px;
+        overflow-x: scroll;
+      }
+    }
+
+    @media (max-width: 790px) {
+      display: flex;
+      width: 100%;
     }
   }
 `;

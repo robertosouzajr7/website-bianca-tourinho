@@ -4,6 +4,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
+  background-color: "white";
   justify-content: center;
   align-items: center;
 
@@ -48,6 +49,9 @@ export const Container = styled.div`
       @media (max-width: 950px) {
         display: flex;
         flex-wrap: nowrap;
+        width: 1200px;
+        gap: 6px;
+        border-radius: 6px;
       }
     }
 
@@ -55,8 +59,9 @@ export const Container = styled.div`
       display: flex;
       flex-direction: column;
       flex-wrap: none;
-      overflow: auto;
-      margin-bottom: 200px;
+      overflow-x: scroll;
+      margin-bottom: 100px;
+      width: 80%;
     }
   }
 `;
