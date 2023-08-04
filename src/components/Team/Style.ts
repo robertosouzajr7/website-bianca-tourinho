@@ -76,7 +76,8 @@ export const DivStyled = styled.div`
       @media (max-width: 790px) {
         display: flex;
         width: 400px;
-        overflow-x: scroll;
+        overflow-x: auto;
+        justify-content: flex-start;
       }
     }
 
