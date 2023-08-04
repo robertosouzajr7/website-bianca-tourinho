@@ -9,7 +9,6 @@ import "swiper/css/thumbs";
 import { GrView } from "react-icons/gr";
 import { Button, ModalStyled, StyledImage } from "../ModalPhoto/Style";
 import Modal from "../ModalPhoto/Modal";
-
 function Projects() {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   const [selectImage, setSelectImage] = useState("");

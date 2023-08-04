@@ -6,6 +6,7 @@ import { HeaderStyled, LogoStyled, MainStyled } from "./Style";
 import Slide from "../../components/Slider/Slider";
 import About from "../../components/About/About";
 import Projects from "../../components/Projects/Projects";
+import Team from "../../components/Team/Team";
 
 export interface iHome {
   setVisibleMenu: React.Dispatch<React.SetStateAction<boolean>>;
@@ -28,6 +29,7 @@ export const Home = () => {
         <Slide />
         <About />
         <Projects />
+        <Team />
       </MainStyled>
     </>
   );
