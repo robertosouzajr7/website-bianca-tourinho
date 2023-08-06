@@ -6,6 +6,7 @@ export const DivStyled = styled.div`
   align-items: center;
   justify-content: center;
   width: 100%;
+  box-sizing: border-box;
 
   .div-title {
     display: flex;
@@ -13,6 +14,8 @@ export const DivStyled = styled.div`
     justify-content: center;
     text-align: center;
     width: 100%;
+    box-sizing: border-box;
+
     h2 {
       font-size: 60px;
       font-family: "Montserrat";
@@ -26,6 +29,7 @@ export const DivStyled = styled.div`
     width: 100%;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
 
     ul {
       display: flex;
@@ -34,12 +38,15 @@ export const DivStyled = styled.div`
       padding: 10px 0px 10px 0px;
       width: 100%;
       gap: 10px;
+      box-sizing: border-box;
+
       li {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         max-width: 300px;
+        box-sizing: border-box;
 
         > img {
           width: 100px;
@@ -48,6 +55,7 @@ export const DivStyled = styled.div`
           border: none;
           background-color: white;
           object-fit: cover;
+          box-sizing: border-box;
         }
 
         > h2 {
@@ -64,12 +72,15 @@ export const DivStyled = styled.div`
           text-align: justify;
           font-size: 12px;
           padding: 0px 30px 0px 30px;
+          margin: 0px;
+          box-sizing: border-box;
         }
 
         @media (max-width: 790px) {
           display: flex;
           flex-direction: column;
           min-width: 350px;
+          box-sizing: border-box;
         }
       }
 
@@ -78,12 +89,14 @@ export const DivStyled = styled.div`
         width: 400px;
         overflow-x: auto;
         justify-content: flex-start;
+        box-sizing: border-box;
       }
     }
 
     @media (max-width: 790px) {
       display: flex;
       width: 100%;
+      box-sizing: border-box;
     }
   }
 `;
