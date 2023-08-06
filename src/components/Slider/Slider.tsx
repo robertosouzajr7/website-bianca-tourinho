@@ -1,11 +1,12 @@
 import React from "react";
-import { Swiper, SwiperSlide, SwiperRef } from "swiper/react";
+import { Swiper, SwiperSlide, SwiperRef, SwiperProps } from "swiper/react";
 import "swiper/css/bundle";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation, EffectFade } from "swiper/modules";
 import { Container } from "./Style";
 import { fotos } from "../../assets/fotos";
+import { SwiperOptions } from "swiper/types/swiper-options";
 
 const Slide: React.FC = () => {
   const swiperRef = React.useRef<SwiperRef>(null);
