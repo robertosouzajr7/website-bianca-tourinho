@@ -4,10 +4,9 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-color: "white";
+  background-color: "yellow";
   justify-content: center;
   align-items: center;
-  padding: 0px 20px 0px 20px;
 
   .div-title {
     width: 100%;
@@ -26,6 +25,7 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
+    background-color: "black";
 
     .div-carrosel {
       display: flex;

@@ -61,11 +61,13 @@ export const DivStyled = styled.div`
         > h2 {
           font-size: 18px;
           font-family: "Montserrat";
+          color: #949494;
         }
 
         > span {
           font-size: 16px;
           font-weight: 400;
+          color: #949494;
         }
 
         > p {
@@ -74,19 +76,20 @@ export const DivStyled = styled.div`
           padding: 0px 30px 0px 30px;
           margin: 0px;
           box-sizing: border-box;
+          color: #949494;
         }
 
         @media (max-width: 790px) {
           display: flex;
           flex-direction: column;
-          min-width: 350px;
+          min-width: 300px;
           box-sizing: border-box;
         }
       }
 
       @media (max-width: 790px) {
         display: flex;
-        width: 400px;
+        width: 300px;
         overflow-x: auto;
         justify-content: flex-start;
         box-sizing: border-box;

@@ -29,7 +29,7 @@ function Team() {
     },
   ];
   return (
-    <ContainerStyled backgroundColor="#d3d3d3">
+    <ContainerStyled backgroundColor="#d3d3d3" id="team">
       <DivStyled>
         <div className="div-title">
           <h2>Nossa Equipe</h2>

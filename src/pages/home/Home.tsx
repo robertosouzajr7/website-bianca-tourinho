@@ -8,6 +8,7 @@ import About from "../../components/About/About";
 import Projects from "../../components/Projects/Projects";
 import Team from "../../components/Team/Team";
 import Contact from "../../components/Contacts/Contact";
+import Footer from "../../components/Footer/Footer";
 
 export interface iHome {
   setVisibleMenu: React.Dispatch<React.SetStateAction<boolean>>;
@@ -31,6 +32,7 @@ export const Home = () => {
         <Projects />
         <Team />
         <Contact />
+        <Footer />
       </MainStyled>
     </>
   );
