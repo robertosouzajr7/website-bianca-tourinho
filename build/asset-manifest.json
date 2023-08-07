@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8594272a.css",
-    "main.js": "/static/js/main.07072d93.js",
+    "main.js": "/static/js/main.1f09e2a6.js",
     "static/js/787.e889445d.chunk.js": "/static/js/787.e889445d.chunk.js",
     "static/media/bianca.png": "/static/media/bianca.31308c72c9782e3db436.png",
     "static/media/slide4.jpg": "/static/media/slide4.16dc8eff7f337ac3f8ac.jpg",
@@ -13,11 +13,11 @@
     "static/media/logo-white-biatourinho.png": "/static/media/logo-white-biatourinho.58919b0cb4a4788f44a7.png",
     "index.html": "/index.html",
     "main.8594272a.css.map": "/static/css/main.8594272a.css.map",
-    "main.07072d93.js.map": "/static/js/main.07072d93.js.map",
+    "main.1f09e2a6.js.map": "/static/js/main.1f09e2a6.js.map",
     "787.e889445d.chunk.js.map": "/static/js/787.e889445d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8594272a.css",
-    "static/js/main.07072d93.js"
+    "static/js/main.1f09e2a6.js"
   ]
 }
