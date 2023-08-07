@@ -12,6 +12,7 @@ export const Container = styled.div`
     justify-content: center;
     width: 100%;
     display: flex;
+    padding-top: 30px;
 
     h2 {
       font-size: 30px;
@@ -31,7 +32,7 @@ export const Container = styled.div`
     width: 100%;
     > .div-foto {
       display: flex;
-      width: 50%;
+      width: 45%;
       align-items: flex-end;
       justify-content: center;
       img {

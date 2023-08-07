@@ -31,7 +31,7 @@ const Container = styled.div`
         margin: 0 auto;
         box-sizing: border-box;
         cursor: pointer;
-        p {
+        .active {
           font-family: "Montserrat";
           font-weight: 100;
 

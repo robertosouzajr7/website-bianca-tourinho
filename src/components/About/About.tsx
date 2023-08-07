@@ -4,7 +4,7 @@ import { Container } from "./style";
 
 function About() {
   return (
-    <Container>
+    <Container id="about">
       <div className="div-title">
         <h2>Sobre Mim</h2>
       </div>

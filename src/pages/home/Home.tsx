@@ -6,6 +6,9 @@ import { HeaderStyled, LogoStyled, MainStyled } from "./Style";
 import Slide from "../../components/Slider/Slider";
 import About from "../../components/About/About";
 import Projects from "../../components/Projects/Projects";
+import Team from "../../components/Team/Team";
+import Contact from "../../components/Contacts/Contact";
+import Footer from "../../components/Footer/Footer";
 
 export interface iHome {
   setVisibleMenu: React.Dispatch<React.SetStateAction<boolean>>;
@@ -21,13 +24,15 @@ export const Home = () => {
           <LogoStyled>
             <img src={Logo} alt="" />
           </LogoStyled>
-
           <Menu setVisibleMenu={setVisibleMenu} />
         </HeaderStyled>
         <MenuMobile visibleMenu={visibleMenu} setVisibleMenu={setVisibleMenu} />
         <Slide />
         <About />
         <Projects />
+        <Team />
+        <Contact />
+        <Footer />
       </MainStyled>
     </>
   );

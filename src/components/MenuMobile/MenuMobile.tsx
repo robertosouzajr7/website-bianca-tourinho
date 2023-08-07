@@ -3,10 +3,12 @@ import React, { useState } from "react";
 import Container from "./Style";
 import { MdOutlineClose } from "react-icons/md";
 import { iHome } from "../../pages/home/Home";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 function MenuMobile({ setVisibleMenu, visibleMenu }: iHome) {
-  const menu = {
+  const data = {
     Home: "Home",
+    Sobre: "Sobre",
     Projetos: "Projetos",
     Equipe: "Equipe",
     Contato: "Contato",
@@ -18,16 +20,69 @@ function MenuMobile({ setVisibleMenu, visibleMenu }: iHome) {
       <nav>
         <ul>
           <li>
-            <p>{menu.Home}</p>
+            <Link
+              activeClass="active "
+              to="/"
+              className="active"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              {data.Home}
+            </Link>
           </li>
           <li>
-            <p>{menu.Projetos}</p>
+            <Link
+              activeClass="active "
+              to="about"
+              className="active"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              {data.Sobre}
+            </Link>
           </li>
           <li>
-            <p>{menu.Equipe}</p>
+            <Link
+              activeClass="active "
+              to="projects"
+              className="active"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              {data.Projetos}{" "}
+            </Link>
           </li>
           <li>
-            <p>{menu.Contato}</p>
+            <Link
+              activeClass="active "
+              to="team"
+              className="active"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              {data.Equipe}{" "}
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active "
+              to="contact"
+              className="active"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              {data.Contato}{" "}
+            </Link>
           </li>
         </ul>
       </nav>

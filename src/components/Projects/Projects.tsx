@@ -1,17 +1,13 @@
 import React, { useState } from "react";
 import { Cards, Container } from "../Projects/Style";
 import { galeria } from "../../assets/fotos";
-import { Swiper, SwiperSlide, SwiperRef, SwiperProps } from "swiper/react";
+import { Swiper, SwiperSlide, SwiperRef } from "swiper/react";
 import { SwiperOptions } from "swiper/types/swiper-options";
-import { FreeMode, Navigation, Pagination, Thumbs } from "swiper/modules";
+import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css/bundle";
 import "swiper/css/thumbs";
-import { GrView } from "react-icons/gr";
-import { Button, ModalStyled, StyledImage } from "../ModalPhoto/Style";
 import Modal from "../ModalPhoto/Modal";
-
 function Projects() {
-  const [thumbsSwiper, setThumbsSwiper] = useState(null);
   const [selectImage, setSelectImage] = useState("");
   const [modalOpen, setModalOpen] = useState(false);
 
@@ -32,7 +28,7 @@ function Projects() {
 
   const swiperRef = React.useRef<SwiperOptions & SwiperRef>(null);
   return (
-    <Container>
+    <Container id="projects">
       <div className="div-title">
         <h2>Projetos</h2>
       </div>

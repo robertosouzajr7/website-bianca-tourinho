@@ -4,7 +4,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-color: "white";
+  background-color: "yellow";
   justify-content: center;
   align-items: center;
 
@@ -24,6 +24,8 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20px;
+    background-color: "black";
 
     .div-carrosel {
       display: flex;
@@ -49,26 +51,41 @@ export const Container = styled.div`
       @media (max-width: 950px) {
         display: flex;
         flex-wrap: nowrap;
+        width: 1200px;
+        gap: 6px;
+        border-radius: 6px;
+        overflow-x: scroll;
+        justify-content: flex-start;
+        padding: 0px 20px 0px 20ox;
       }
     }
 
     @media (max-width: 950px) {
       display: flex;
       flex-direction: column;
+      justify-content: flex-start;
       flex-wrap: none;
-      overflow: auto;
-      margin-bottom: 200px;
+      overflow-x: scroll;
+      margin-bottom: 20px;
+      width: 100%;
     }
   }
 `;
 
 export const Cards = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: center;
   cursor: pointer;
   img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     opacity: 0.9;
+
+    @media (max-width: 950px) {
+      min-width: 300px;
+    }
   }
 
   &:hover {
@@ -81,8 +98,9 @@ export const Cards = styled.div`
   }
 
   @media (max-width: 950px) {
+    display: flex;
+    justify-content: flex-start;
     object-fit: contain;
-    width: 400px;
-    height: 200px;
+    padding: 0px 20px 0px 20px;
   }
 `;

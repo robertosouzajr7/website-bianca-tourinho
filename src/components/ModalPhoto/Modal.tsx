@@ -27,7 +27,7 @@ const Modal: React.FC<GalleryProps> = ({ HandleCloseModal, selectImage }) => {
           <Swiper
             ref={swiperRef}
             centeredSlides={true}
-            pagination={{ clickable: true }}
+            pagination={{ clickable: false }}
             navigation={true}
             modules={[Pagination, Navigation]}
             className="modal-container"
