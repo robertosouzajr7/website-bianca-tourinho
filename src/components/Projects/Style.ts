@@ -4,19 +4,43 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-color: "yellow";
+  min-height: 200px;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
 
   .div-title {
     width: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 
     h2 {
       font-size: 60px;
       color: #949494;
+    }
+
+    .div-buttons {
+      display: flex;
+      gap: 10px;
+
+      > button {
+        border-radius: 5px;
+        background-color: #949494;
+        color: white;
+        border: none;
+        width: 200px;
+        height: 45px;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 5px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        &:hover {
+          background-color: #94949494;
+        }
+      }
     }
   }
 
@@ -25,23 +49,29 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
-    background-color: "black";
+    box-sizing: border-box;
+    text-align: center;
+    min-height: 500px;
 
     .div-carrosel {
       display: flex;
-      gap: 5px;
-      width: 60%;
-      align-items: center;
-      justify-content: center;
       flex-wrap: wrap;
+      box-sizing: border-box;
+      gap: 5px;
+      min-width: 300px;
+      max-width: 1080px;
+      width: 100%;
+      align-items: flex-start;
+      justify-content: center;
 
       .capa-galeria {
         align-items: center;
         justify-content: center;
-        max-width: 200px;
-        max-height: 200px;
-        width: 100%;
+        min-width: 300px;
         object-fit: cover;
+        height: 200px;
+        padding: 0;
+        width: 350px;
 
         &:hover {
           background: rgba(108, 108, 108, 0.3337710084033614) 99%;
@@ -51,12 +81,12 @@ export const Container = styled.div`
       @media (max-width: 950px) {
         display: flex;
         flex-wrap: nowrap;
-        width: 1200px;
+        width: 100%;
+        min-width: 300px;
         gap: 6px;
         border-radius: 6px;
         overflow-x: scroll;
         justify-content: flex-start;
-        padding: 0px 20px 0px 20ox;
       }
     }
 
@@ -68,19 +98,22 @@ export const Container = styled.div`
       overflow-x: scroll;
       margin-bottom: 20px;
       width: 100%;
+      min-width: 300px;
+      min-height: 300px;
     }
   }
 `;
 
 export const Cards = styled.div`
-  width: 100%;
   display: flex;
+  width: 100%;
+  padding: none;
   justify-content: center;
+  align-items: center;
+  object-fit: cover;
   cursor: pointer;
-  img {
+  .modal-foto {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
     opacity: 0.9;
 
     @media (max-width: 950px) {
@@ -100,7 +133,6 @@ export const Cards = styled.div`
   @media (max-width: 950px) {
     display: flex;
     justify-content: flex-start;
-    object-fit: contain;
-    padding: 0px 20px 0px 20px;
+    object-fit: cover;
   }
 `;
