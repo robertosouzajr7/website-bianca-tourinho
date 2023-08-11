@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8594272a.css",
-    "main.js": "/static/js/main.aec0871d.js",
+    "main.js": "/static/js/main.d3cfd636.js",
     "static/js/787.e889445d.chunk.js": "/static/js/787.e889445d.chunk.js",
     "static/media/Rodrigo Melo - THAIS BRITO - 08.03.2022_RMF_019.jpg": "/static/media/Rodrigo Melo - THAIS BRITO - 08.03.2022_RMF_019.4d8d2f734cc1f3b30150.jpg",
     "static/media/Rodrigo Melo - THAIS BRITO - 08.03.2022_RMF_031.jpg": "/static/media/Rodrigo Melo - THAIS BRITO - 08.03.2022_RMF_031.324c6e820554fd5a0a8a.jpg",
@@ -90,11 +90,11 @@
     "static/media/logo-white-biatourinho.png": "/static/media/logo-white-biatourinho.58919b0cb4a4788f44a7.png",
     "index.html": "/index.html",
     "main.8594272a.css.map": "/static/css/main.8594272a.css.map",
-    "main.aec0871d.js.map": "/static/js/main.aec0871d.js.map",
+    "main.d3cfd636.js.map": "/static/js/main.d3cfd636.js.map",
     "787.e889445d.chunk.js.map": "/static/js/787.e889445d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8594272a.css",
-    "static/js/main.aec0871d.js"
+    "static/js/main.d3cfd636.js"
   ]
 }
