@@ -30,7 +30,7 @@ export const Container = styled.div`
         background-color: #949494;
         color: white;
         border: none;
-        width: 200px;
+        width: 130px;
         height: 45px;
         font-size: 16px;
         font-weight: bold;
