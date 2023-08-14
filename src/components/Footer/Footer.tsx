@@ -15,9 +15,8 @@ function Footer() {
         <nav>
           <img src={Logo} alt="Logo" />
           <p>Todos os Direitos Reservados</p>
-          <a href="#">Rj Sistemas</a>
           <div>
-            <BiArrowToTop onClick={scrollToTop} />
+            <BiArrowToTop size={60} onClick={scrollToTop} />
           </div>
         </nav>
       </FootStyled>

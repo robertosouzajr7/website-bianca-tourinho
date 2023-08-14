@@ -15,13 +15,14 @@ export const Container = styled.div`
     padding-top: 30px;
 
     h2 {
-      font-size: 30px;
+      font-size: 60px;
       font-family: "Montserrat";
       font-weight: bold;
       color: #949494;
     }
 
     @media (max-width: 768px) {
+      padding-top: 30px;
       background-color: #949494;
     }
   }
@@ -60,8 +61,10 @@ export const Container = styled.div`
       align-items: flex-start;
       justify-content: flex-start;
       width: 50%;
+      padding-top: 30px;
 
       > h2 {
+        text-align: right;
         display: flex;
         font-size: 30px;
         display: flex;
@@ -69,10 +72,15 @@ export const Container = styled.div`
         color: #949494;
       }
 
+      h5 {
+        color: #949494;
+        font-size: 30px;
+      }
+
       > p {
         padding-right: 30px;
         font-size: 16px;
-        font-family: "Source Sans Pro";
+        font-family: "Montserrat";
         color: #949494;
         text-align: justify;
         .div-button {
@@ -82,14 +90,15 @@ export const Container = styled.div`
           width: 100%;
 
           button {
-            padding: 10px;
-            font-size: 12px;
-            height: 30px;
-            background-color: #484848;
+            border-radius: 5px;
+            background-color: #94949494;
             color: white;
-            border-radius: 6px;
             border: none;
-            text-transform: uppercase;
+            height: 45px;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 5px 15px 5px 15px;
+            margin-bottom: 20px;
             cursor: pointer;
 
             &:hover {
@@ -108,7 +117,7 @@ export const Container = styled.div`
       }
 
       @media (max-width: 768px) {
-        padding: 0px 20px 0px 20px;
+        padding: 20px 20px 0px 20px;
         align-items: center;
         width: 80%;
       }
@@ -120,6 +129,7 @@ export const Container = styled.div`
       width: 100%;
       justify-content: center;
       align-items: center;
+      padding-top: 30px;
     }
   }
 `;

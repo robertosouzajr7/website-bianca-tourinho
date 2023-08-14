@@ -30,7 +30,7 @@ export const Home = () => {
         <Slide />
         <About />
         <Projects />
-        <Team />
+        {/* <Team /> */}
         <Contact />
         <Footer />
       </MainStyled>

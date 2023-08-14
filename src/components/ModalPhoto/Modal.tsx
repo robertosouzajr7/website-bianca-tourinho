@@ -4,7 +4,7 @@ import { FreeMode, Navigation, Pagination, Thumbs } from "swiper/modules";
 import "swiper/css/bundle";
 import "swiper/css/thumbs";
 import { Button, MainComponent, ModalStyled, StyledImage } from "./Style";
-
+import { AiOutlineCloseCircle } from "react-icons/ai";
 interface GalleryProps {
   HandleCloseModal: () => void;
   selectImage: string;
@@ -37,7 +37,17 @@ const Modal: React.FC<GalleryProps> = ({
           >
             {fotos.fotos.map((item: any) => (
               <SwiperSlide>
-                <Button onClick={HandleCloseModal}>Fechar</Button>
+                <AiOutlineCloseCircle
+                  onClick={HandleCloseModal}
+                  style={{
+                    position: "absolute",
+                    right: 10,
+                    top: 0,
+                    cursor: "pointer",
+                    color: "white",
+                  }}
+                  size={45}
+                />
                 <StyledImage src={item} alt=" Imagem selecionada" />
               </SwiperSlide>
             ))}

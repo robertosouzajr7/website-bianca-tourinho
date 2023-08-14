@@ -34,6 +34,7 @@ const Container = styled.div`
         .active {
           font-family: "Montserrat";
           font-weight: 100;
+          color: white;
 
           &:hover {
             font-weight: 600;
