@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8594272a.css",
-    "main.js": "/static/js/main.d3cfd636.js",
+    "main.css": "/static/css/main.5e6cc290.css",
+    "main.js": "/static/js/main.a3bae876.js",
     "static/js/787.e889445d.chunk.js": "/static/js/787.e889445d.chunk.js",
     "static/media/Rodrigo Melo - THAIS BRITO - 08.03.2022_RMF_019.jpg": "/static/media/Rodrigo Melo - THAIS BRITO - 08.03.2022_RMF_019.4d8d2f734cc1f3b30150.jpg",
     "static/media/Rodrigo Melo - THAIS BRITO - 08.03.2022_RMF_031.jpg": "/static/media/Rodrigo Melo - THAIS BRITO - 08.03.2022_RMF_031.324c6e820554fd5a0a8a.jpg",
@@ -73,6 +73,7 @@
     "static/media/Rodrigo Melo - JORGE AMADO - 02.03.2023_RMF_158_WEB.jpg": "/static/media/Rodrigo Melo - JORGE AMADO - 02.03.2023_RMF_158_WEB.0a725f6fa6d3dcd74a88.jpg",
     "static/media/Rodrigo Melo - VISTA IMPERIAL - 29.09.2020_RMF_094_WEB.jpg": "/static/media/Rodrigo Melo - VISTA IMPERIAL - 29.09.2020_RMF_094_WEB.21a9b35d0dc040fc2fc3.jpg",
     "static/media/Rodrigo Melo - VISTA IMPERIAL - 29.09.2020_RMF_076_WEB.jpg": "/static/media/Rodrigo Melo - VISTA IMPERIAL - 29.09.2020_RMF_076_WEB.6ab15699552191e13d6a.jpg",
+    "static/media/brand-icons.svg": "/static/media/brand-icons.6729d29753e000c17489.svg",
     "static/media/IMG_0272.jpg": "/static/media/IMG_0272.6efbc090db1abe6787d7.jpg",
     "static/media/IMG_0290-1.jpg": "/static/media/IMG_0290-1.13bb026b3f7cb310b5fc.jpg",
     "static/media/IMG_0269-1.jpg": "/static/media/IMG_0269-1.37adaad194b1ef950804.jpg",
@@ -80,6 +81,7 @@
     "static/media/IMG_0286.jpg": "/static/media/IMG_0286.2fb31850f10078e1f3a3.jpg",
     "static/media/Rodrigo Melo - JORGE AMADO - 02.03.2023_RMF_164_WEB.jpg": "/static/media/Rodrigo Melo - JORGE AMADO - 02.03.2023_RMF_164_WEB.111e8ca9a0c83bb27349.jpg",
     "static/media/IMG_0275.jpg": "/static/media/IMG_0275.ae0825af2dbef7a1f433.jpg",
+    "static/media/icons.svg": "/static/media/icons.62d9dae4e0040e81c980.svg",
     "static/media/IMG_0277-1.jpg": "/static/media/IMG_0277-1.fa1ac1f5eb9e3eb9baca.jpg",
     "static/media/IMG_0292-1.jpg": "/static/media/IMG_0292-1.b09f70a581b4abcc4071.jpg",
     "static/media/IMG_0291.jpg": "/static/media/IMG_0291.243abe4fbda15fedb8fc.jpg",
@@ -88,13 +90,27 @@
     "static/media/IMG_0294-1.jpg": "/static/media/IMG_0294-1.f2e621e42ae90d55ed7a.jpg",
     "static/media/IMG_0299.jpg": "/static/media/IMG_0299.f4c88d9bcf0f3af909d1.jpg",
     "static/media/logo-white-biatourinho.png": "/static/media/logo-white-biatourinho.58919b0cb4a4788f44a7.png",
+    "static/media/outline-icons.svg": "/static/media/outline-icons.9c4845b4b41ef40a22fa.svg",
+    "static/media/icons.eot": "/static/media/icons.a01e3f2d6c83dc3aee17.eot",
+    "static/media/icons.ttf": "/static/media/icons.c656b8caa454ed19b9a2.ttf",
+    "static/media/brand-icons.eot": "/static/media/brand-icons.d68fa3e67dbb653a13ce.eot",
+    "static/media/brand-icons.ttf": "/static/media/brand-icons.65a2fb6d9aaa164b41a0.ttf",
+    "static/media/brand-icons.woff": "/static/media/brand-icons.cac87dc00c87a5d74711.woff",
+    "static/media/brand-icons.woff2": "/static/media/brand-icons.278156e41e0ad908cf7f.woff2",
+    "static/media/icons.woff": "/static/media/icons.425399f81e4ce7cbd967.woff",
+    "static/media/icons.woff2": "/static/media/icons.38c6d8bab26db77d8c80.woff2",
+    "static/media/outline-icons.eot": "/static/media/outline-icons.752905fa5edf21fc52a1.eot",
+    "static/media/outline-icons.ttf": "/static/media/outline-icons.5367103510b27b784827.ttf",
+    "static/media/flags.png": "/static/media/flags.99f63ae7a743f21ab308.png",
+    "static/media/outline-icons.woff": "/static/media/outline-icons.ddae9b1ba9b0b42f5880.woff",
+    "static/media/outline-icons.woff2": "/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
     "index.html": "/index.html",
-    "main.8594272a.css.map": "/static/css/main.8594272a.css.map",
-    "main.d3cfd636.js.map": "/static/js/main.d3cfd636.js.map",
+    "main.5e6cc290.css.map": "/static/css/main.5e6cc290.css.map",
+    "main.a3bae876.js.map": "/static/js/main.a3bae876.js.map",
     "787.e889445d.chunk.js.map": "/static/js/787.e889445d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8594272a.css",
-    "static/js/main.d3cfd636.js"
+    "static/css/main.5e6cc290.css",
+    "static/js/main.a3bae876.js"
   ]
 }
