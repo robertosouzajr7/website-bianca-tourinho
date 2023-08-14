@@ -8,6 +8,7 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
+  padding-top: 50px;
 
   .div-title {
     width: 100%;
@@ -30,12 +31,10 @@ export const Container = styled.div`
         background-color: #949494;
         color: white;
         border: none;
-        width: 130px;
         height: 45px;
         font-size: 16px;
         font-weight: bold;
-        padding: 5px;
-        margin-bottom: 20px;
+        padding: 5px 15px 5px 15px;
         cursor: pointer;
         &:hover {
           background-color: #94949494;
@@ -95,7 +94,6 @@ export const Container = styled.div`
       flex-direction: column;
       justify-content: flex-start;
       flex-wrap: none;
-      overflow-x: scroll;
       margin-bottom: 20px;
       width: 100%;
       min-width: 300px;

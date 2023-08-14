@@ -6,6 +6,7 @@ export const DivStyledMap = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 50px;
 
   .div-contact {
     align-items: center;
@@ -69,7 +70,7 @@ export const DivStyledMap = styled.div`
       font-size: 30px;
     }
 
-    > div {
+    .adress {
       display: flex;
       align-items: center;
       justify-content: center;

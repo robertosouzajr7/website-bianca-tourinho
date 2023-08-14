@@ -3,6 +3,8 @@ import { Swiper, SwiperSlide, SwiperRef } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import { SwiperOptions } from "swiper/types/swiper-options";
 import { Cards, Container } from "./Style";
+import "semantic-ui-css/semantic.min.css";
+import { Dimmer, Loader, Image, Segment } from "semantic-ui-react";
 import "swiper/css/bundle";
 import "swiper/css/thumbs";
 import Modal from "../ModalPhoto/Modal";
@@ -17,7 +19,7 @@ const Comercial = ({ galeriaComercial }: any) => {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 3000);
+    }, 1000);
   }, []);
 
   const getId = (id: string) => {
@@ -37,7 +39,7 @@ const Comercial = ({ galeriaComercial }: any) => {
   return (
     <Container>
       {loading ? (
-        <h2>Carregando</h2>
+        <Loader active inline="centered" />
       ) : (
         <div className="div-carrosel">
           {galeriaComercial.map((foto: any) => (

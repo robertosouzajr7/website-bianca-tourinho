@@ -7,6 +7,8 @@ export const DivStyled = styled.div`
   justify-content: center;
   width: 100%;
   box-sizing: border-box;
+  padding-top: 50px;
+  padding-bottom: 30px;
 
   .div-title {
     display: flex;
