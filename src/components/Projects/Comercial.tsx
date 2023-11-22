@@ -55,7 +55,7 @@ const Comercial = ({ galeriaComercial }: any) => {
               autoHeight={true}
               zoom={true}
             >
-              <h2>{foto.name}</h2>
+              {/* <h2>{foto.name}</h2> */}
               {foto.fotos.map((imagem: string) => (
                 <SwiperSlide zoom={true} onClick={() => HandleClick(imagem)}>
                   <img src={imagem} alt={imagem} />

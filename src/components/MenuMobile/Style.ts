@@ -59,8 +59,9 @@ const Container = styled.div<{ isVisible?: boolean }>`
       li {
         display: flex;
         cursor: pointer;
-        p {
+        a {
           font-family: "Montserrat";
+          color: "white";
 
           &hover {
             font-weight: bold;

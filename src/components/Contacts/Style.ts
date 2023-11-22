@@ -75,10 +75,10 @@ export const DivStyledMap = styled.div`
       align-items: center;
       justify-content: center;
       text-align: center;
-      gap: 5px;
+      width: 100%;
 
       > p {
-        font-size: 18px;
+        font-size: 16px;
         text-align: center;
       }
 

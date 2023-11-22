@@ -6,6 +6,7 @@ import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation, EffectFade } from "swiper/modules";
 import { Container } from "./Style";
 import { fotos } from "../../assets/fotos";
+import "../../styles/slider.css";
 
 const Slide: React.FC = () => {
   const swiperRef = React.useRef<SwiperRef>(null);

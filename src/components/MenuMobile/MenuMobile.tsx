@@ -4,7 +4,7 @@ import Container from "./Style";
 import { MdOutlineClose } from "react-icons/md";
 import { iHome } from "../../pages/home/Home";
 import { Link, animateScroll as scroll } from "react-scroll";
-
+import "../../styles/slider.css";
 function MenuMobile({ setVisibleMenu, visibleMenu }: iHome) {
   const data = {
     Home: "Home",
