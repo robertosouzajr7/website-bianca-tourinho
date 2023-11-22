@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5e6cc290.css",
-    "main.js": "/static/js/main.a3bae876.js",
+    "main.css": "/static/css/main.acbe5743.css",
+    "main.js": "/static/js/main.030f745e.js",
     "static/js/787.e889445d.chunk.js": "/static/js/787.e889445d.chunk.js",
     "static/media/Rodrigo Melo - THAIS BRITO - 08.03.2022_RMF_019.jpg": "/static/media/Rodrigo Melo - THAIS BRITO - 08.03.2022_RMF_019.4d8d2f734cc1f3b30150.jpg",
     "static/media/Rodrigo Melo - THAIS BRITO - 08.03.2022_RMF_031.jpg": "/static/media/Rodrigo Melo - THAIS BRITO - 08.03.2022_RMF_031.324c6e820554fd5a0a8a.jpg",
@@ -105,12 +105,12 @@
     "static/media/outline-icons.woff": "/static/media/outline-icons.ddae9b1ba9b0b42f5880.woff",
     "static/media/outline-icons.woff2": "/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
     "index.html": "/index.html",
-    "main.5e6cc290.css.map": "/static/css/main.5e6cc290.css.map",
-    "main.a3bae876.js.map": "/static/js/main.a3bae876.js.map",
+    "main.acbe5743.css.map": "/static/css/main.acbe5743.css.map",
+    "main.030f745e.js.map": "/static/js/main.030f745e.js.map",
     "787.e889445d.chunk.js.map": "/static/js/787.e889445d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e6cc290.css",
-    "static/js/main.a3bae876.js"
+    "static/css/main.acbe5743.css",
+    "static/js/main.030f745e.js"
   ]
 }
